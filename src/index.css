@@ -1,0 +1,191 @@
+body {
+  background: #5031a9;
+  color: #fff;
+}
+
+header {
+  background: #4c2da2;
+  color: #fff;
+}
+
+.navbar {
+  background: #4c2da2;
+}
+
+.navbar .navbar-nav li a{
+  color: #fff;
+  padding: 25px 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: #f7683e;
+  transition: all .5s ease-in-out;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: #f7683e;
+  transition: all .5s ease-in-out;
+}
+
+.fa-bars {
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.HomePage h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 150px 0 150px;
+  text-align: center;
+}
+
+.img1 {
+  background: url("http://kellerelementary.weebly.com/uploads/2/5/7/9/25792133/coding.jpg") no-repeat center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ height: 500px;
+}
+
+.img2 {
+  background: url("http://futurefocusfoundation.us/wp-content/uploads/2016/07/coding.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+}
+
+.img3 {
+  background: url("https://marketing-prod.global.ssl.fastly.net/sites/default/files/2017-03/GA_Coding_2x_2.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+}
+
+.img4 {
+  background: url("https://s3.amazonaws.com/blog.invisionapp.com/uploads/2018/01/design-engineers-thumb.png?ver=1") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+}
+
+.col-md-6 {
+  padding: 0;
+}
+
+.AboutPage {
+  background: #eee;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.AboutPage h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 100px;
+  margin: 0 0 120px;
+  text-align: center;
+  color: #5031a9;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.myImg {
+  background: url("https://cdn-images-1.medium.com/max/825/1*CDlclChuNeeM5Shfev2RTg.jpeg")no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  margin: 0 0 50px;
+}
+
+.AboutMe p {
+  color: #000;
+  padding: 0 3rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+.ProjectsPage {
+  background: #fff;
+  color: #000;
+}
+
+.ProjectsPage h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 100px;
+  margin: 0 0 120px;
+  text-align: center;
+  color: #5031a9;
+}
+
+.img-thumbnail {
+  margin-bottom: 50px;
+  background: #eee;
+}
+
+.project-img {
+  padding: 10px 0 0 0;
+  width: 100%;
+}
+
+.project-section p {
+  margin: 10px 0;
+}
+
+.btn {
+  background: #5031a9;
+}
+
+.ContactPage h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 100px;
+  margin: 0 0 80px;
+  text-align: center;
+  color: #fff;
+}
+
+.ContactPage p {
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+.ContactPage a:hover {
+  color: #f7683e;
+  transition: all .5s ease-in-out;
+}
+
+.ContactPage .social-media {
+  color: #fff;
+}
+
+ .ContactPage i {
+   margin: 0 10px;
+   float: right;
+ }
