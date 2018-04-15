@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import PeakFitness from "../images/PeakFitness.png";
 import YoutubeClone from "../images/YoutubeClone.png";
 import YelpCamp from "../images/YelpCamp.png";
+import Division10 from "../images/Division10.png";
 
 
 
@@ -27,9 +27,9 @@ class ProjectsPage extends Component {
             </section>
             <section className="col-md-5 offset-md-1 img-thumbnail text-center ">
               <h3>Peak Fitness</h3>
-              <img src={PeakFitness} className="project-img" alt="Peak Fitness" />
-              <p><strong>Technologies Used:</strong> HTML5, CSS3, Adobe Dreamweaver</p>
-              <a href="http://wcet2.waketech.edu/kmgarner/WEB140/peakFitness/index.html" target="_blank" className="btn btn-secondary">View Full Site</a>
+              <img src={Division10} className="project-img" alt="Division 10" />
+              <p><strong>Technologies Used:</strong> HTML5, CSS3, Bootstrap 4</p>
+              <a href="http://www.thedivision10.com.s3-website.us-east-2.amazonaws.com/" target="_blank" className="btn btn-secondary">View Full Site</a>
             </section>
           </div>
         </section>
