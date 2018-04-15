@@ -26,7 +26,7 @@ class ProjectsPage extends Component {
               <a href="https://ancient-headland-83860.herokuapp.com/" target="_blank" className="btn btn-secondary">View Full Site</a>
             </section>
             <section className="col-md-5 offset-md-1 img-thumbnail text-center ">
-              <h3>Peak Fitness</h3>
+              <h3>Division10</h3>
               <img src={Division10} className="project-img" alt="Division 10" />
               <p><strong>Technologies Used:</strong> HTML5, CSS3, Bootstrap 4</p>
               <a href="http://www.thedivision10.com.s3-website.us-east-2.amazonaws.com/" target="_blank" className="btn btn-secondary">View Full Site</a>
