@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import YoutubeClone from "../images/YoutubeClone.png";
 import YelpCamp from "../images/YelpCamp.png";
 import Division10 from "../images/Division10.png";
+import KgWebBlogs from "../images/KgWebBlogs.png";
 
 
 
@@ -30,6 +31,12 @@ class ProjectsPage extends Component {
               <img src={Division10} className="project-img" alt="Division 10" />
               <p><strong>Technologies Used:</strong> HTML5, CSS3, Bootstrap 4</p>
               <a href="http://www.thedivision10.com.s3-website.us-east-2.amazonaws.com/" target="_blank" className="btn btn-secondary">View Full Site</a>
+            </section>
+            <section className="col-md-5 img-thumbnail text-center ">
+              <h3>KG Web Blogs</h3>
+              <img src={KgWebBlogs} className="project-img" alt="KG Web Blogs" />
+              <p><strong>Technologies Used:</strong> Wordpress, PHP, CSS3</p>
+              <a href="https://tinyurl.com/kgwebblog" target="_blank" className="btn btn-secondary">View Full Site</a>
             </section>
           </div>
         </section>
