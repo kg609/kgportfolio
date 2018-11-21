@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import YoutubeClone from "../images/YoutubeClone.png";
 import YelpCamp from "../images/YelpCamp.png";
-import Division10 from "../images/Division10.png";
+import KgPrimeSteak from "../images/KgPrimeSteak.png";
 import KgWebBlogs from "../images/KgWebBlogs.png";
 
 
@@ -27,10 +27,10 @@ class ProjectsPage extends Component {
               <a href="https://ancient-headland-83860.herokuapp.com/" target="_blank" className="btn btn-secondary">View Full Site</a>
             </section>
             <section className="col-md-5 offset-md-1 img-thumbnail text-center ">
-              <h3>Division10</h3>
-              <img src={Division10} className="project-img" alt="Division 10" />
-              <p><strong>Technologies Used:</strong> HTML5, CSS3, Bootstrap 4</p>
-              <a href="http://www.thedivision10.com.s3-website.us-east-2.amazonaws.com/" target="_blank" className="btn btn-secondary">View Full Site</a>
+              <h3>KG Prime Steak</h3>
+              <img src={KgPrimeSteak} className="project-img" alt="KG Prime Steak" />
+              <p><strong>Technologies Used:</strong> HTML5, CSS3, Sass, Hyperapp</p>
+              <a href="https://kgprimesteak.herokuapp.com/" target="_blank" className="btn btn-secondary">View Full Site</a>
             </section>
             <section className="col-md-5 img-thumbnail text-center ">
               <h3>KG Web Blogs</h3>
