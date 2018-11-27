@@ -7,15 +7,20 @@ class HomePage extends Component {
       <div className="HomePage" id="HomePage">
 
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
             <h1>With knowledge, <br/> passion, heart, and soul</h1>
             </div>
             <div className="carousel-item">
-              <h1>Quote or Phrase 2</h1>
+              <h1>Code Every Day</h1> 
             </div>
             <div className="carousel-item">
-              <h1>Quote or Phrase 3</h1>
+              <h1>Practice Makes Perfect</h1>
             </div>
           </div>
           <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
