@@ -123,7 +123,8 @@ header {
 
 .AboutMe p {
   color: #000;
-  padding: 0 3rem;
+  margin-right: 15px;
+  margin-bottom: 50px;
   line-height: 2rem;
   letter-spacing: 1px;
   font-family: 'Raleway', sans-serif;
@@ -158,6 +159,7 @@ header {
   font-size: 1.3rem;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
+  padding-top: 20px;
 }
 
 .project-section p {
