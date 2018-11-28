@@ -15,7 +15,7 @@ header {
 .navbar .navbar-nav li a{
   color: #fff;
   padding: 25px 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
 }
 
 .navbar .navbar-nav li a:hover {
@@ -25,7 +25,7 @@ header {
 
 .navbar-brand {
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
 }
 
 .navbar-brand:hover {
@@ -39,7 +39,7 @@ header {
 }
 
 .HomePage h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
   font-size: 3rem;
   font-weight: 500;
   margin: 150px 0 150px;
@@ -96,7 +96,7 @@ header {
 }
 
 .AboutPage h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
   font-size: 3rem;
   font-weight: 500;
   padding-top: 100px;
@@ -126,6 +126,7 @@ header {
   padding: 0 3rem;
   line-height: 2rem;
   letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .ProjectsPage {
@@ -134,7 +135,7 @@ header {
 }
 
 .ProjectsPage h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
   font-size: 3rem;
   font-weight: 500;
   padding-top: 100px;
@@ -149,20 +150,33 @@ header {
 }
 
 .project-img {
-  padding: 10px 0 0 0;
+  padding: 15px 25px;
   width: 100%;
+}
+
+.project-section h3 {
+  font-size: 1.3rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 .project-section p {
   margin: 10px 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
 }
 
 .btn {
   background: #5031a9;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 15px;
 }
 
+
 .ContactPage h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
   font-size: 3rem;
   font-weight: 500;
   padding-top: 100px;

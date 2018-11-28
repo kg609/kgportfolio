@@ -6,15 +6,15 @@ class HomePage extends Component {
     return (
       <div className="HomePage" id="HomePage">
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+          <ol className="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-            <h1>With knowledge, <br/> passion, heart, and soul</h1>
+            <h1 className="title">With knowledge, <br/> passion, heart, and soul</h1>
             </div>
             <div className="carousel-item">
               <h1>Code Every Day</h1> 
