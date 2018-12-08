@@ -170,10 +170,27 @@ header {
   line-height: 1.3rem;
 }
 
-.btn {
+.btn-project {
   background: #5031a9;
   font-family: 'Raleway', sans-serif;
+  margin: 0 20px 15px 0;
+  color: #fff;
+}
+
+.btn-project:hover {
+  color: #f7683e;
+}
+
+.btn-github {
+  background: #f7683e;
+  font-family: 'Raleway', sans-serif;
   margin-bottom: 15px;
+  color: #fff;
+  padding: 6px 15px;
+}
+
+.btn-github:hover {
+  color: #5031a9;
 }
 
 
@@ -186,10 +203,13 @@ header {
   text-align: center;
   color: #fff;
 }
+.ContactPage a {
+  color: #fff;
+}
 
 .ContactPage p {
   text-align: center;
-  margin: 0 auto 20px;
+  margin: 50px auto 0;
 }
 
 .ContactPage a:hover {

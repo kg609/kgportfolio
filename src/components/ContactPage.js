@@ -9,10 +9,7 @@ class ContactPage extends Component {
   render() {
     return (
       <div className="ContactPage" id="ContactPage">
-        <h1>Contact Info</h1>
-
-        <p>Email: <a href="kiwanegarner012@yahoo.com"> kiwanegarner012@yahoo.com</a></p>
-        <p>Phone Number: (252)-268-9771</p>
+        
         <p>&copy; KG Portfolio 2018</p>
 
         <a className="social-media" target="_blank" href="https://github.com/kg609">
