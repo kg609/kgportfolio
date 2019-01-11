@@ -15,7 +15,7 @@ header {
 .navbar .navbar-nav li a{
   color: #fff;
   padding: 25px 0;
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Open Sans', 'Black Han Sans', sans-serif;
 }
 
 .navbar .navbar-nav li a:hover {
@@ -25,7 +25,7 @@ header {
 
 .navbar-brand {
   color: #fff;
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Open Sans', 'Black Han Sans', sans-serif;
 }
 
 .navbar-brand:hover {
@@ -39,7 +39,7 @@ header {
 }
 
 .HomePage h1 {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Open Sans', 'Black Han Sans', sans-serif;
   font-size: 3rem;
   font-weight: 500;
   margin: 150px 0 150px;
@@ -96,9 +96,9 @@ header {
 }
 
 .AboutPage h1 {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Open Sans','Black Han Sans', sans-serif;
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 700;
   padding-top: 100px;
   margin: 0 0 120px;
   text-align: center;
@@ -127,7 +127,7 @@ header {
   margin-bottom: 50px;
   line-height: 2rem;
   letter-spacing: 1px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
 }
 
 .ProjectsPage {
@@ -136,9 +136,9 @@ header {
 }
 
 .ProjectsPage h1 {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Open Sans','Black Han Sans', sans-serif;
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 700;
   padding-top: 100px;
   margin: 0 0 120px;
   text-align: center;
@@ -157,16 +157,16 @@ header {
 
 .project-section h3 {
   font-size: 1.3rem;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-family: 'Open Sans','Raleway', sans-serif;
+  font-weight: 600;
   padding-top: 20px;
 }
 
 .project-section p {
   margin: 10px 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans','Raleway', sans-serif;
   font-size: 1.1rem;
-  font-weight: 400;
+  
   line-height: 1.3rem;
 }
 

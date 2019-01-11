@@ -7,7 +7,7 @@ class Header extends Component {
       <div className="Header" id="HeaderPage">
         <header>
           <nav className="navbar fixed-top navbar-expand-lg">
-            <a className="navbar-brand" href="#HeaderPage">KG Web Portfolio</a>
+            <a className="navbar-brand" href="#HeaderPage">Kiwane Garner</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <i className="fa fa-bars"></i>
             </button>
