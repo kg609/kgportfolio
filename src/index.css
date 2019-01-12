@@ -16,6 +16,7 @@ header {
   color: #fff;
   padding: 25px 0;
   font-family: 'Open Sans', 'Black Han Sans', sans-serif;
+  font-weight: 600;
 }
 
 .navbar .navbar-nav li a:hover {
@@ -26,6 +27,7 @@ header {
 .navbar-brand {
   color: #fff;
   font-family: 'Open Sans', 'Black Han Sans', sans-serif;
+  font-weight: 600;
 }
 
 .navbar-brand:hover {
@@ -41,7 +43,7 @@ header {
 .HomePage h1 {
   font-family: 'Open Sans', 'Black Han Sans', sans-serif;
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 600;
   margin: 150px 0 150px;
   text-align: center;
 }
@@ -98,10 +100,27 @@ header {
 .AboutPage h1 {
   font-family: 'Open Sans','Black Han Sans', sans-serif;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
   padding-top: 100px;
   margin: 0 0 120px;
   text-align: center;
+  color: #5031a9;
+}
+
+.AboutPage section.col-md-12{
+  margin-left: -15px;
+}
+
+.AboutPage section.col-sm-12{
+  text-align: center;
+}
+
+.AboutPage h2 {
+  font-family: 'Open Sans','Black Han Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 0px;
+  margin: 0 0 20px;
   color: #5031a9;
 }
 
@@ -124,10 +143,24 @@ header {
 .AboutMe p {
   color: #000;
   margin-right: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   line-height: 2rem;
   letter-spacing: 1px;
   font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+
+.AboutMe ul {
+  color: #000;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+
+.AboutMe .left-skillset {
+}
+
+.AboutMe li{
+  padding: 5px 0;
+  margin-left: -12px;
+  
 }
 
 .ProjectsPage {
@@ -138,7 +171,7 @@ header {
 .ProjectsPage h1 {
   font-family: 'Open Sans','Black Han Sans', sans-serif;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
   padding-top: 100px;
   margin: 0 0 120px;
   text-align: center;

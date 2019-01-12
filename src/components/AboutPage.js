@@ -11,7 +11,36 @@ class AboutPage extends Component {
           <section className="AboutContent">
             <div className="row">
               <section className="col-md-5 offset-md-1 AboutMe">
-                <p>My name is Kiwane Garner and I am a self-taught devloper currently attending Wake Tech Community college in pursuit of a web developer degree. So far on my journey to becoming a professional web developer I have learned and become efficient in languages such as HTML5, CSS3, Bootstrap3, Javascript, and React. Although i have become effiecent in using those languages The list or the journey doesn’t end there. I will be continuing to improve my skills in the languages mentioned before and also increase my knowledge and exposure to other languages such as php, java, mysql, Angular, and SASS.</p>
+                
+                <p>I am a self taught developer who is always searching to learn more about the web and the Internet Of Things. 
+                  A goal of mine is to earn an internship or a part-time job as a developer and continue to grow as a developer as 
+                  well as meet many amazing developers along the way.</p>
+
+                <div className="row">
+                <section className="col-md-12 ">
+                  <h2>My Skillset</h2>
+                </section>
+                <section className="col-sm-5 col-xs-3 col-md-6 ">
+                <ul className=" left-skillset col-sm-3 col-md-5 ">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Sass</li>
+                  <li>Bootstrap</li>
+                  <li>React</li>
+                </ul>
+                </section>
+
+                <section className="col-sm-6">
+                <ul className="right-skillset col-md-6 col-sm-6 ">
+                  <li>MySQL</li>
+                  <li>Php</li>
+                  <li>Wordpress</li>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                </ul>
+                </section>
+                
+                </div>
               </section>
               <section className="col-md-5 myImg">
 
