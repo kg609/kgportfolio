@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import YoutubeClone from "../images/YoutubeClone.png";
+import PortfolioDemo from "../images/portfolioDemo.png";
 import YelpCamp from "../images/YelpCamp.png";
 import KgPrimeSteak from "../images/KgPrimeSteak.png";
 import KgWebBlogs from "../images/KgWebBlogs.png";
@@ -23,9 +24,9 @@ class ProjectsPage extends Component {
             </section>
             <section className="col-md-5  img-thumbnail text-center ">
               <h3>Yelp Camp</h3>
-              <img src={YelpCamp} className="project-img" alt="Yelp Camp" />
-              <p><strong>Technologies: </strong> HTML, CSS, Bootstrap 3, EJS, Node, Express, and MongoDB</p>
-              <a href="https://ancient-headland-83860.herokuapp.com/" target="_blank" className="btn btn-project">View Full Site</a>
+              <img src={PortfolioDemo} className="project-img" alt="Yelp Camp" />
+              <p><strong>Technologies: </strong> HTML, CSS, Bootstrap 3, JQuery, AWS</p>
+              <a href="https://tinyurl.com/kiwanegarner" target="_blank" className="btn btn-project">View Full Site</a>
               <a href="#" target="_blank" className="btn btn-github">View Github</a>
             </section>
             <section className="col-md-5 offset-md-1 img-thumbnail text-center ">
