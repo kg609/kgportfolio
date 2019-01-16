@@ -23,7 +23,7 @@ class ProjectsPage extends Component {
               <a href="https://github.com/kg609/Youtube-Clone" target="_blank" className="btn btn-github">View Github</a>
             </section>
             <section className="col-md-5  img-thumbnail text-center ">
-              <h3>Yelp Camp</h3>
+              <h3>Website Portfolio</h3>
               <img src={PortfolioDemo} className="project-img" alt="Yelp Camp" />
               <p><strong>Technologies: </strong> HTML, CSS, Bootstrap 3, JQuery, AWS</p>
               <a href="https://tinyurl.com/kiwanegarner" target="_blank" className="btn btn-project">View Full Site</a>
