@@ -37,7 +37,7 @@ class HomePage extends Component {
           <div className="row">
             <section className="col-md-6 img1">
             </section>
-            <section className="col-md-6 col-sm-6">
+            <section className="col-md-6">
               <div className="row">
                 <section className="col-md-12 img2">
                 </section>
