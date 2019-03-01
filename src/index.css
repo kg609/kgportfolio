@@ -1,5 +1,8 @@
 body {
-  background: #5031a9;
+  background: #4c2da2; /* Old browsers */
+  background: -moz-linear-gradient(top, #4c2da2 0%, #5b41a8 51%, #5a44a3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #4c2da2 0%,#5b41a8 51%,#5a44a3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #4c2da2 0%,#5b41a8 51%,#5a44a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   color: #fff;
 }
 

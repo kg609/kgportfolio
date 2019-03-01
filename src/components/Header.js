@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import resume from '../images/Kiwane_Garner_Resume.pdf';
 
 
 class Header extends Component {
@@ -20,11 +21,17 @@ class Header extends Component {
                   <a className="nav-link" href="#AboutPage">About</a>
                 </li>
                 <li className="nav-item">
+                  <a className="nav-link" href={resume} download="Kiwane_Garner_Resume">Resume</a>
+                </li>
+                <li className="nav-item">
                   <a className="nav-link" href="#ProjectsPage">Projects</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#ContactPage">Contact</a>
+                  <a className="nav-link" href="https://kmgarner2017.wordpress.com/">Blogs</a>
                 </li>
+                {/*<li className="nav-item">
+                  <a className="nav-link" href="#ContactPage">Contact</a>
+                </li>*/}
               </ul>
             </div>
           </nav>
