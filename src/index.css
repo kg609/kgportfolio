@@ -154,8 +154,8 @@ header {
   font-family: 'Open Sans', 'Raleway', sans-serif;
 }
 
-.AboutMe .left-skillset {
-}
+/* .AboutMe .left-skillset {
+} */
 
 .AboutMe li{
   padding: 5px 0;
@@ -184,8 +184,31 @@ header {
 }
 
 .project-img {
-  padding: 15px 25px;
+  /*padding: 15px 25px; */
   width: 100%;
+  
+  margin: 20px 0;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 220px;
+  width: 94%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5031a9;
+}
+
+.alt-overlay {
+  background-color: #f7683e;
+}
+
+.project-container:hover .img-overlay {
+  opacity: .9;
 }
 
 .project-section h3 {
@@ -199,8 +222,13 @@ header {
   margin: 10px 0;
   font-family: 'Open Sans','Raleway', sans-serif;
   font-size: 1.1rem;
-  
   line-height: 1.3rem;
+}
+
+.img-overlay p {
+  color: #FFF;
+  margin: 20px auto;
+  padding: 0 10px;
 }
 
 .btn-project {
@@ -258,3 +286,72 @@ header {
    margin: 0 10px;
    float: right;
  }
+
+
+ @media only screen and (max-width: 1200px) {
+  .img-overlay {
+    top: 60px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 185px;
+  }
+
+  .img-overlay p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .img-overlay p {
+    font-size: .8rem;
+    margin: 5px 0;
+    line-height: .9rem;
+  }
+  
+}
+
+@media only screen and (max-width: 900px) {
+  .img-overlay {
+    top: 60px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 135px;
+  }
+  
+}
+
+@media only screen and (max-width: 770px) {
+  .img-overlay {
+    top: 60px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 245px;
+  }
+
+  .img-overlay p {
+    margin: 20px auto;
+    padding: 0 10px;
+    line-height: 1.3rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .img-overlay {
+    top: 60px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 208px;
+  }
+
+  .img-overlay p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+}

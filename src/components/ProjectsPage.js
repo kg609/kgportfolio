@@ -15,6 +15,50 @@ class ProjectsPage extends Component {
 
         <section className="project-section">
           <div className="row">
+          <section className="col-md-5 offset-md-1 text-center project-container">
+            <h3>Youtube Clone</h3>
+            <img src={YoutubeClone} className="project-img" alt="Youtube Clone" />
+            <div className="img-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
+            <p className="tech-list"><strong>Technologies: </strong> HTML, CSS, Bootstrap 4, React, Node, and Express</p>
+            <a href="https://kgyoutubeapp.herokuapp.com/" target="_blank" className="btn btn-project">View Full Site</a>
+            <a href="https://github.com/kg609/Youtube-Clone" target="_blank" className="btn btn-github">View Github</a>
+          </section>
+          <section className="col-md-5 text-center project-container">
+            <h3>PortfolioDemo</h3>
+            <img src={PortfolioDemo} className="project-img" alt="Youtube Clone" />
+            <div className="img-overlay alt-overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
+            <p className="tech-list"><strong>Technologies: </strong> HTML, CSS, Bootstrap 4, React, Node, and Express</p>
+            <a href="https://kgyoutubeapp.herokuapp.com/" target="_blank" className="btn btn-project">View Full Site</a>
+            <a href="https://github.com/kg609/Youtube-Clone" target="_blank" className="btn btn-github">View Github</a>
+          </section>
+          <section className="col-md-5 offset-md-1 text-center project-container">
+            <h3>KgPrimeSteak</h3>
+            <img src={KgPrimeSteak} className="project-img" alt="Youtube Clone" />
+            <div className="img-overlay alt-overlay">
+              <p id="project-overview">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
+            <p className="tech-list"><strong>Technologies: </strong> HTML, CSS, Bootstrap 4, React, Node, and Express</p>
+            <a href="https://kgyoutubeapp.herokuapp.com/" target="_blank" className="btn btn-project">View Full Site</a>
+            <a href="https://github.com/kg609/Youtube-Clone" target="_blank" className="btn btn-github">View Github</a>
+          </section>
+          
+          
+          
+
+          {/*
             <section className="col-md-5 offset-md-1 img-thumbnail text-center">
               <h3>Youtube Clone</h3>
               <img src={YoutubeClone} className="project-img" alt="Youtube Clone" />
@@ -36,13 +80,7 @@ class ProjectsPage extends Component {
               <a href="https://kgprimesteak.herokuapp.com/" target="_blank" className="btn btn-project">View Full Site</a>
               <a href="https://github.com/kg609/KG-Prime-Steak" target="_blank" className="btn btn-github">View Github</a>
             </section>
-            {/*<section className="col-md-5 img-thumbnail text-center ">
-              <h3>KG Web Blogs</h3>
-              <img src={KgWebBlogs} className="project-img" alt="KG Web Blogs" />
-              <p><strong>Technologies Used:</strong> Wordpress, PHP, CSS3</p>
-              <a href="https://tinyurl.com/kgwebblog" target="_blank" className="btn btn-project">View Full Site</a>
-              <a href="#" target="_blank" className="btn btn-github">View Github</a>
-    </section> */}
+          */}
           </div>
         </section>
       </div>
