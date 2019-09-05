@@ -24,6 +24,10 @@ header {
   transition: all .5s ease-in-out;
 }
 
+.navbar .navbar-nav li a.active {
+  color: #f7683e;
+}
+
 .navbar-brand {
   color: #fff;
   font-family: 'Open Sans', 'Black Han Sans', sans-serif;
@@ -241,6 +245,7 @@ header {
 .btn-project:hover {
   color: #f7683e;
 }
+
 
 .btn-github {
   background: #f7683e;

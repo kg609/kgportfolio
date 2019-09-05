@@ -15,7 +15,7 @@ class HomePage extends Component {
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-            <h1 className="title">With knowledge, <br/> passion, heart, and soul</h1>
+            <h1 className="title">Trust The Process</h1>
             </div>
             <div className="carousel-item">
               <h1>Code Every Day</h1> 
