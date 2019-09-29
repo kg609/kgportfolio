@@ -22,6 +22,7 @@ header {
 .navbar .navbar-nav li a:hover {
   color: #f7683e;
   transition: all .5s ease-in-out;
+  cursor: pointer;
 }
 
 .navbar .navbar-nav li a.active {
@@ -37,6 +38,7 @@ header {
 .navbar-brand:hover {
   color: #f7683e;
   transition: all .5s ease-in-out;
+  cursor: pointer;
 }
 
 .fa-bars {
