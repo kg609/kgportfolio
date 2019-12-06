@@ -12,9 +12,8 @@ class AboutPage extends Component {
             <div className="row">
               <section className="col-md-5 offset-md-1 AboutMe">
                 
-                <p>I am a self taught developer who is always searching to learn more about the web and the Internet Of Things. 
-                  A goal of mine is to earn an internship or a part-time job as a developer and continue to grow as a developer as 
-                  well as meet many amazing developers along the way.</p>
+                <p>Hello, my name is Kiwane Garner and I am a highly motivated and passionate web developer who enjoys producing content to help improve 
+                      the lives of others. I am always looking for ways to improve my craft and leave an everlatsting experience for users that use my products or services.</p>
 
                 <div className="row">
                 <section className="col-md-12 ">
