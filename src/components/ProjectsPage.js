@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PortfolioDemo from "../images/portfolioDemo.png";
+import lifeLeadership from "../images/lifeLeadership.png";
 import HenrysRestaurant from "../images/henrysRestaurant.png";
 import CarolinaAleHouse from "../images/CarolinaAleHouse.png";
 
@@ -36,8 +36,8 @@ class ProjectsPage extends Component {
             </section>
             <section className="col-md-5  img-thumbnail text-center ">
               <h3>Website Portfolio</h3>
-              <img src={PortfolioDemo} className="project-img" alt="Yelp Camp" />
-              <p><strong>Technologies: </strong> HTML, CSS, Bootstrap 3, JQuery, AWS</p>
+              <img src={lifeLeadership} className="project-img" alt="Life Leadership" />
+              <p><strong>Technologies: </strong> HTML5, CSS3, Bootstrap 3, JQuery, and VB.Net </p>
               <br />
               <p style={{textAlign: 'left'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
