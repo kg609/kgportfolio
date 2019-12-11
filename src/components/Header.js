@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { TweenLite } from "gsap";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 // import resume from '../images/Kiwane_Garner_Resume.pdf';

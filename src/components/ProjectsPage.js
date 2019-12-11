@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import lifeLeadership from "../images/lifeLeadership.png";
 import HenrysRestaurant from "../images/henrysRestaurant.png";
 import CarolinaAleHouse from "../images/CarolinaAleHouse.png";
@@ -6,12 +7,13 @@ import CarolinaAleHouse from "../images/CarolinaAleHouse.png";
 
 
 class ProjectsPage extends Component {
+state = { isVisible: false ,}
 
-  // handleToggle = () => {
-  //   this.setState({ isVisible: !isVisible })
+  handleToggle = () => {
+    this.setState({ isVisible: !this.state.isVisible })
 
-  //   console.log(this.state.isVisible)
-  // }
+    console.log(this.state.isVisible)
+  }
 
   render() {
     return (
@@ -22,7 +24,7 @@ class ProjectsPage extends Component {
           <div className="row">
             <section className="col-md-5 offset-md-1 img-thumbnail text-center">
               <h3 id="henrysTitle">Henry's Restaurant</h3>
-              <img src={ HenrysRestaurant } className="project-img" alt="Henry's Restaurant"  onClick={this.projectShowcaseModal} />
+              <img src={ HenrysRestaurant } className="project-img" alt="Henry's Restaurant" />
               <p><strong>Technologies: </strong> HTML, CSS, JQuery, and WordPress, and Php</p>
               <br />
               <p style={{textAlign: 'left'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -32,6 +34,7 @@ class ProjectsPage extends Component {
                 <br />
                 <br />
               <a href="https://www.henrysrestaurant.com/" target="_blank" className="btn btn-project">View Full Site</a>
+              <button  onClick={this.handleToggle} >Click me</button>
               {/* <a href="https://github.com/kg609/Youtube-Clone" target="_blank" className="btn btn-github">View Github</a> */}
             </section>
             <section className="col-md-5  img-thumbnail text-center ">
@@ -45,7 +48,7 @@ class ProjectsPage extends Component {
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <br />
                 <br />
-              <a href="https://tinyurl.com/kiwanegarner" target="_blank" className="btn btn-project">View Full Site</a>
+              <a href="https://www.lifeleadership.com/index.aspx" target="_blank" className="btn btn-project">View Full Site</a>
               {/* <a href="#" target="_blank" className="btn btn-github">View Github</a> */}
             </section>
             <section className="col-md-5 offset-md-1 img-thumbnail text-center ">
