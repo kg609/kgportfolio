@@ -25,16 +25,17 @@ state = { isVisible: false ,}
             <section className="col-md-5 offset-md-1 img-thumbnail text-center">
               <h3 id="henrysTitle">Henry's Restaurant</h3>
               <img src={ HenrysRestaurant } className="project-img" alt="Henry's Restaurant" />
-              <p><strong>Technologies: </strong> HTML, CSS, JQuery, and WordPress, and Php</p>
+              {/* <p><strong>Technologies: </strong> HTML, CSS, JQuery, and WordPress, and Php</p> */}
               <br />
-              <p style={{textAlign: 'left'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p style={{textAlign: 'left'}}> 
+                    Henry's Restaurant is a Wilmington,NC  based restaurant that serves a variety of dishes from the local ingrediants that they gather.
+                    While working with this client I gained a better understanding of creating brand awareness,  creating and importing csv's into a mysql database, and 
+                    the importance web forms to garther more information about users/customers.
+               </p>
                 <br />
                 <br />
               <a href="https://www.henrysrestaurant.com/" target="_blank" className="btn btn-project">View Full Site</a>
-              <button  onClick={this.handleToggle} >Click me</button>
+              {/* <button  onClick={this.handleToggle} >Click me</button> */}
               {/* <a href="https://github.com/kg609/Youtube-Clone" target="_blank" className="btn btn-github">View Github</a> */}
             </section>
             <section className="col-md-5  img-thumbnail text-center ">
