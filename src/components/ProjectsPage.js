@@ -29,7 +29,7 @@ state = { isVisible: false ,}
               <br />
               <p style={{textAlign: 'left'}}> 
                     Henry's Restaurant is a Wilmington,NC  based restaurant that serves a variety of dishes from the local ingrediants that they gather.
-                    While working with this client I gained a better understanding of creating brand awareness,  creating and importing csv's into a mysql database, and 
+                    While working with this client I gained a better understanding of creating brand awareness, creating and importing csv's into a mysql database, and 
                     the importance web forms to garther more information about users/customers.
                </p>
                 <br />
@@ -41,15 +41,15 @@ state = { isVisible: false ,}
             <section className="col-md-5  img-thumbnail text-center ">
               <h3>Website Portfolio</h3>
               <img src={lifeLeadership} className="project-img" alt="Life Leadership" />
-              <p><strong>Technologies: </strong> HTML5, CSS3, Bootstrap 3, JQuery, and VB.Net </p>
+              {/* <p><strong>Technologies: </strong> HTML5, CSS3, Bootstrap 3, JQuery, SQL, and VB.Net </p> */}
               <br />
-              <p style={{textAlign: 'left'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p style={{textAlign: 'left'}}>Lifeleadership.com has become an Ecommerce platform where many Life products and services are sold and distributed
+              to customers. While helping to build this Ecommerce structure I gained a better understanding of MVC patterns, the importance of reusable code/components,
+              DRY principles, and user roles and authentication. 
+              </p>
                 <br />
                 <br />
-              <a href="https://www.lifeleadership.com/index.aspx" target="_blank" className="btn btn-project">View Full Site</a>
+              <a style={{marginTop: '20px'}} href="https://www.lifeleadership.com/index.aspx" target="_blank" className="btn btn-project">View Full Site</a>
               {/* <a href="#" target="_blank" className="btn btn-github">View Github</a> */}
             </section>
             <section className="col-md-5 offset-md-1 img-thumbnail text-center ">
