@@ -55,12 +55,12 @@ state = { isVisible: false ,}
             <section className="col-md-5 offset-md-1 img-thumbnail text-center ">
               <h3>Carolina Ale House</h3>
               <img src={CarolinaAleHouse} className="project-img" alt="KG Prime Steak" />
-              <p><strong>Technologies: </strong> HTML, CSS, JQuery, WordPress, and Php</p>
+              {/* <p><strong>Technologies: </strong> HTML, CSS, JQuery, WordPress, and Php</p> */}
               <br />
-              <p style={{textAlign: 'left'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p style={{textAlign: 'left'}}>Carolina Ale House is a North Carolina based restaurant/sports bar & grill. The Carolina Ale House 
+              is a great place to grab bite to eat and watch fan favorite sports teams compete against one another. While working on this project
+              I learned how beneficial web forms are for gathering more insight about customers and I also improved my skills with flex box css by recreating the
+              the frontend of the online ordering alegating menu.</p>
                 <br />
                 <br />
               <a href="https://www.carolinaalehouse.com/" target="_blank" className="btn btn-project">View Full Site</a>
