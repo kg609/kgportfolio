@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import lifeLeadership from "../images/lifeLeadership.png";
 import HenrysRestaurant from "../images/henrysRestaurant.png";
 import CarolinaAleHouse from "../images/CarolinaAleHouse.png";
+import SignupNewsletter from "../images/signupNewsletter.png";
 
 
 
@@ -34,12 +35,12 @@ state = { isVisible: false ,}
                </p>
                 <br />
                 <br />
-              <a href="https://www.henrysrestaurant.com/" target="_blank" className="btn btn-project">View Full Site</a>
+              <a style={{marginTop: '0'}} href="https://www.henrysrestaurant.com/" target="_blank" className="btn btn-project">View Full Site</a>
               {/* <button  onClick={this.handleToggle} >Click me</button> */}
               {/* <a href="https://github.com/kg609/Youtube-Clone" target="_blank" className="btn btn-github">View Github</a> */}
             </section>
             <section className="col-md-5  img-thumbnail text-center ">
-              <h3>Website Portfolio</h3>
+              <h3>Life Leadership</h3>
               <img src={lifeLeadership} className="project-img" alt="Life Leadership" />
               {/* <p><strong>Technologies: </strong> HTML5, CSS3, Bootstrap 3, JQuery, SQL, and VB.Net </p> */}
               <br />
@@ -49,7 +50,7 @@ state = { isVisible: false ,}
               </p>
                 <br />
                 <br />
-              <a style={{marginTop: '20px'}} href="https://www.lifeleadership.com/index.aspx" target="_blank" className="btn btn-project">View Full Site</a>
+              <a href="https://www.lifeleadership.com/index.aspx" target="_blank" className="btn btn-project">View Full Site</a>
               {/* <a href="#" target="_blank" className="btn btn-github">View Github</a> */}
             </section>
             <section className="col-md-5 offset-md-1 img-thumbnail text-center ">
@@ -65,6 +66,21 @@ state = { isVisible: false ,}
                 <br />
               <a href="https://www.carolinaalehouse.com/" target="_blank" className="btn btn-project">View Full Site</a>
               {/* <a href="https://github.com/kg609/KG-Prime-Steak" target="_blank" className="btn btn-github">View Github</a> */}
+            </section>
+            <section className="col-md-5  img-thumbnail text-center ">
+              <h3>Email Signup Newsletter</h3>
+              <img src={SignupNewsletter} className="project-img" alt="Signup Newsletter" />
+              {/* <p><strong>Technologies: </strong> HTML5, CSS3, Bootstrap 3, JQuery, SQL, and VB.Net </p> */}
+              <br />
+              <p style={{textAlign: 'left'}}> The Signup Newsletter is a web form that was created to accept a users's email, first name, and 
+              last name. I really enjoyed working on this small project and I was able to learn more about how react JS components. With this project
+              I was able to break down the difference between functional and class components, atom design priniciples, state management, es6, and increase my
+              knowledge in tools such as storybook for prototyping and testing components. 
+              </p>
+                <br />
+              <a href="https://pedantic-agnesi-e27e88.netlify.com/" target="_blank" className="btn btn-project">View Full Site</a>
+              <br />
+              <a href="https://github.com/kg609/Signup-News-Letter" target="_blank" className="btn btn-github">View Github</a>
             </section>
           </div>
         </section>

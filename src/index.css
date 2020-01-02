@@ -240,7 +240,7 @@ header {
   max-width:  250px;
   background: #5031a9;
   font-family: 'Raleway', sans-serif;
-  margin: 0 20px 15px 0;
+  margin: 20px 0;
   color: #fff;
   box-shadow: 0px 0px 50px -25px rgba(0,0,0,0.75);
 
@@ -252,6 +252,8 @@ header {
 
 
 .btn-github {
+  width:  100%;
+  max-width:  250px;
   background: #f7683e;
   font-family: 'Raleway', sans-serif;
   margin-bottom: 15px;
