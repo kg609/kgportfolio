@@ -16,9 +16,6 @@ scrollToTop = () => {
     scroll.scrollToTop(); 
 };
 
-componentDidMount(){
- 
-}
 
   render() {
     return (
@@ -53,9 +50,6 @@ componentDidMount(){
                       duration= {500}
                   >About</Link>
                 </li>
-                {/* <li className="nav-item">
-                  <a className="nav-link" href={resume} download="Kiwane_Garner_Resume">Resume</a>
-                </li> */}
                 <li className="nav-item">
                 <Link
                       className="nav-link"
@@ -68,7 +62,7 @@ componentDidMount(){
                   >Projects</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="https://kmgarner2017.wordpress.com/" target="_blank">Blogs</a>
+                  <a className="nav-link" href="https://codelevels.com/" target="_blank">Blog</a>
                 </li>
                 {/*<li className="nav-item">
                   <a className="nav-link" href="#ContactPage">Contact</a>
