@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import lifeLeadership from "../images/lifeLeadership.png";
-import HenrysRestaurant from "../images/henrysRestaurant.png";
-import CarolinaAleHouse from "../images/CarolinaAleHouse.png";
-import SignupNewsletter from "../images/signupNewsletter.png";
+import lifeLeadership from "../images/lifeLeadership.jpg";
+import HenrysRestaurant from "../images/henrysRestaurant.jpg";
+import CarolinaAleHouse from "../images/CarolinaAleHouse.jpg";
+import SignupNewsletter from "../images/signupNewsletter.jpg";
 
 
 
