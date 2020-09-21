@@ -10,10 +10,10 @@ class AboutPage extends Component {
 
           <section className="AboutContent">
             <div className="row">
-              <section className="col-md-5 offset-md-1 AboutMe">
+              <section className="col-md-5 offset-md-1 pb-4 AboutMe">
                 
-                <p>Hello, my name is Kiwane Garner and I am a highly motivated and passionate web developer who enjoys producing content to help improve 
-                      the lives of others. I am always looking for ways to improve my craft and leave an everlatsting experience for users that use my products or services.</p>
+                <p>An experienced Web Developer with years of experience building web and mobile applications/services for a variety of industries. 
+                        A great communicator, problem-solver, and agile developer with the ability to do full-stack development while specializing in frontend technologies such as HTML, CSS, Bootstrap Javascript, and React. </p>
 
                 <div className="row">
                 <section className="col-md-12 ">
@@ -26,11 +26,16 @@ class AboutPage extends Component {
                   <li>Sass</li>
                   <li>Bootstrap</li>
                   <li>React</li>
+                  <li>SQL Server</li>
+                  <li>C#</li>
                 </ul>
                 </section>
 
                 <section className="col-sm-6">
                 <ul className="right-skillset col-md-6 col-sm-6 ">
+                  <li>.NET</li>
+                  <li>Dot NET Nuke</li>
+                  <li>Visual Basic</li>
                   <li>MySQL</li>
                   <li>Php</li>
                   <li>Wordpress</li>
