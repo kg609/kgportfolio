@@ -4,7 +4,7 @@ import lifeLeadership from "../images/lifeLeadership.png";
 import HenrysRestaurant from "../images/henrysRestaurant.png";
 import CarolinaAleHouse from "../images/CarolinaAleHouse.png";
 import SignupNewsletter from "../images/signupNewsletter.png";
-
+import MontgomeryCC from "../images/montgomerycc.png";
 
 
 class ProjectsPage extends Component {
@@ -40,22 +40,22 @@ state = { isVisible: false ,}
               {/* <a href="https://github.com/kg609/Youtube-Clone" target="_blank" className="btn btn-github">View Github</a> */}
             </section>
             <section className="col-md-5  img-thumbnail text-center ">
-              <h3>Life Leadership</h3>
-              <img src={lifeLeadership} className="project-img" alt="Life Leadership" />
+              <h3>Montgomery Community College</h3>
+              <img src={MontgomeryCC} className="project-img" alt="Montgomery Community College" />
               {/* <p><strong>Technologies: </strong> HTML5, CSS3, Bootstrap 3, JQuery, SQL, and VB.Net </p> */}
               <br />
-              <p style={{textAlign: 'left'}}>Lifeleadership.com has become an Ecommerce platform where many Life products and services are sold and distributed
-              to customers. While helping to build this Ecommerce structure I gained a better understanding of MVC patterns, the importance of reusable code/components,
-              DRY principles, and user roles and authentication. 
-              </p>
+              <p style={{textAlign: 'left'}}>Montgomery Community College is a public community college located in Troy, North Carolina. This project 
+                    provided me with in depth knowledge of how WP queries work and how to customize them. It is also the first custom theme that was migrated over
+                    to the new gutenburg blocks system.
+                  </p>
                 <br />
                 <br />
-              <a href="https://www.lifeleadership.com/index.aspx" target="_blank" className="btn btn-project">View Full Site</a>
+              <a href="https://www.montgomery.edu/" target="_blank" className="btn btn-project">View Full Site</a>
               {/* <a href="#" target="_blank" className="btn btn-github">View Github</a> */}
             </section>
             <section className="col-md-5 offset-md-1 img-thumbnail text-center ">
               <h3>Carolina Ale House</h3>
-              <img src={CarolinaAleHouse} className="project-img" alt="KG Prime Steak" />
+              <img src={CarolinaAleHouse} className="project-img" alt="Carolina Ale House" />
               {/* <p><strong>Technologies: </strong> HTML, CSS, JQuery, WordPress, and Php</p> */}
               <br />
               <p style={{textAlign: 'left'}}>Carolina Ale House is a North Carolina based restaurant/sports bar & grill. The Carolina Ale House 

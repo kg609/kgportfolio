@@ -13,7 +13,7 @@ class AboutPage extends Component {
               <section className="col-md-5 offset-md-1 pb-4 AboutMe">
                 
                 <p>Hello! My name is Kiwane Garner and I am an experienced Web Developer based out of North Carolina with years of experience building web and mobile applications/services for a variety of industries. 
-                        A great communicator, problem-solver, and agile developer with the ability to do full-stack development while specializing in frontend technologies such as HTML, CSS, Bootstrap Javascript, and React. </p>
+                        I'm a great communicator, problem-solver, and agile developer with the ability to do full-stack development while specializing in frontend technologies such as HTML, CSS, Bootstrap Javascript, and React. </p>
 
                 <div className="row">
                 <section className="col-md-12 ">
